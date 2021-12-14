@@ -75,7 +75,7 @@ clear(); background(200,200,200);
 
   textStyle(NORMAL);
   text("Definition:", 20,  winput.y+170);
-  textStyle(BOLD);textSize(18);
+  textStyle(BOLD);textSize(12);
   text(defs, 100,  winput.y+170);
   //texthover.mouseOver();
 
