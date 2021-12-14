@@ -47,7 +47,9 @@ function refresh_canvas()
 clear(); background(200,200,200);
   image(Cimg, width/2.7, height/14);
   
-  textSize(40)
+  textSize(10);
+  text("Please Allow Microphone Permission When Asked", 10, 10);
+
    textSize(18);
  fill('#7c4dff');
 
